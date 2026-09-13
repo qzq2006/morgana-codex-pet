@@ -1,0 +1,17 @@
+{
+  "method": "deterministic bidirectional DIS optical-flow tween",
+  "loop": "cosine A-to-B-to-A",
+  "source": "operator-approved Frame A/B pairs",
+  "workSize": "512x512",
+  "framesPerState": 24,
+  "states": [
+    "idle",
+    "running-right",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ]
+}

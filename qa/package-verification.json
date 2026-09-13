@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "sheet": "1536x1872 RGBA",
+  "manifest": {
+    "displayName": "Morgana",
+    "description": "Persona 5 的摩尔加纳，为 Codex 工作状态制作的个人同人桌宠。",
+    "spriteVersionNumber": 1,
+    "spritesheetPath": "spritesheet.png"
+  },
+  "checks": [
+    "all required cells contain visible pixels with safe margins",
+    "all unused cells are transparent",
+    "running-left is an exact horizontal mirror of running-right",
+    "all state loops contain measurable frame-to-frame motion"
+  ],
+  "displayMotion": {
+    "idle": {
+      "minMeanAbsoluteDelta": 4.782,
+      "maxMeanAbsoluteDelta": 13.073
+    },
+    "running-right": {
+      "minMeanAbsoluteDelta": 6.812,
+      "maxMeanAbsoluteDelta": 8.932
+    },
+    "running-left": {
+      "minMeanAbsoluteDelta": 6.812,
+      "maxMeanAbsoluteDelta": 8.932
+    },
+    "waving": {
+      "minMeanAbsoluteDelta": 10.265,
+      "maxMeanAbsoluteDelta": 17.998
+    },
+    "jumping": {
+      "minMeanAbsoluteDelta": 13.612,
+      "maxMeanAbsoluteDelta": 30.907
+    },
+    "failed": {
+      "minMeanAbsoluteDelta": 7.657,
+      "maxMeanAbsoluteDelta": 8.991
+    },
+    "waiting": {
+      "minMeanAbsoluteDelta": 7.09,
+      "maxMeanAbsoluteDelta": 10.455
+    },
+    "running": {
+      "minMeanAbsoluteDelta": 6.712,
+      "maxMeanAbsoluteDelta": 11.643
+    },
+    "review": {
+      "minMeanAbsoluteDelta": 9.504,
+      "maxMeanAbsoluteDelta": 14.553
+    }
+  }
+}

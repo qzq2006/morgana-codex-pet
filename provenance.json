@@ -1,0 +1,50 @@
+{
+  "character": "Morgana",
+  "sourceWork": "Persona 5",
+  "rightsHolders": [
+    "ATLUS",
+    "SEGA"
+  ],
+  "intendedUse": "personal non-commercial fan desktop pet for Codex",
+  "reference": {
+    "localFile": "references/morgana-official.png",
+    "sourcePage": "https://persona5.jp/sp/character/morgana.html",
+    "assetUrl": "https://persona5.jp/resources/img/character/sp/morgana/char_img_whole.png"
+  },
+  "spriteProtocol": {
+    "version": 1,
+    "sheetSize": "1536x1872",
+    "cellSize": "192x208",
+    "states": [
+      "idle",
+      "running-right",
+      "running-left",
+      "waving",
+      "jumping",
+      "failed",
+      "waiting",
+      "running",
+      "review"
+    ]
+  },
+  "approvedKeyframes": [
+    "idle",
+    "running-right",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "derivedStates": {
+    "running-left": "deterministic horizontal mirror of running-right"
+  },
+  "keyframeGenerationMethod": "OpenAI built-in image generation with operator identity veto",
+  "status": "installed_and_selected_locally",
+  "notes": "All Frame A/B pairs passed operator review at 59x64. The final local build uses deterministic optical-flow interpolation, exact mirrored left-running cells, transparent RGBA output, and passed package verification.",
+  "animationGenerationMethod": "deterministic bidirectional DIS optical-flow tween from operator-approved Frame A/B pairs",
+  "animationLoop": "24-frame cosine A-to-B-to-A source sequence, then state-specific Codex frame extraction",
+  "installation": "%USERPROFILE%/.codex/pets/morgana",
+  "selectedAvatarId": "custom:morgana"
+}

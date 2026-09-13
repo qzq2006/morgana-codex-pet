@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "width": 1536,
+  "height": 1872,
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "columns": 8,
+  "rows": [
+    {"index": 0, "state": "idle", "requiredFrames": 6},
+    {"index": 1, "state": "running-right", "requiredFrames": 8},
+    {"index": 2, "state": "running-left", "requiredFrames": 8},
+    {"index": 3, "state": "waving", "requiredFrames": 4},
+    {"index": 4, "state": "jumping", "requiredFrames": 5},
+    {"index": 5, "state": "failed", "requiredFrames": 8},
+    {"index": 6, "state": "waiting", "requiredFrames": 6},
+    {"index": 7, "state": "running", "requiredFrames": 6},
+    {"index": 8, "state": "review", "requiredFrames": 6}
+  ]
+}
